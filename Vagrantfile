@@ -21,6 +21,6 @@ Virtual Box4
     nodeapp.vm.provider "virtualbox" do |vb|
       
     end
-      nodeapp.vm.provision "shell", path: "./jenkins.sh"
+      nodeapp.vm.provision "shell", path: "./jenkins-config.yml"
   end
 end
